@@ -1,8 +1,8 @@
 ## 全能微信Java开发工具包（SDK）
 #### 支持包括微信支付、开放平台、公众号、企业微信/企业号、小程序等微信功能的后端开发。
 ---------------------------------
-[![码云Gitee](https://gitee.com/binary/weixin-java-tools/badge/star.svg?theme=blue)](https://gitee.com/binary/weixin-java-tools) 
-[![Github](https://img.shields.io/badge/Github-10k~-green.svg)](https://github.com/Wechat-Group/weixin-java-tools) 
+[![码云Gitee](https://gitee.com/binary/weixin-java-tools/badge/star.svg?theme=blue)](https://gitee.com/binary/weixin-java-tools)
+[![Github](http://github-svg-buttons.herokuapp.com/star.svg?user=Wechat-Group&repo=weixin-java-tools&style=flat&background=1081C1)](https://github.com/Wechat-Group/weixin-java-tools)
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.binarywang/weixin-java-parent.svg)](http://mvnrepository.com/artifact/com.github.binarywang/weixin-java-parent)
 [![Build Status](https://travis-ci.org/Wechat-Group/weixin-java-tools.svg?branch=develop)](https://travis-ci.org/Wechat-Group/weixin-java-tools)
 [![使用IntelliJ IDEA开发维护](https://img.shields.io/badge/IntelliJ%20IDEA-提供支持-blue.svg)](https://www.jetbrains.com/idea/)
@@ -10,19 +10,19 @@
 ---------------------------------
 ### 重要信息
 
-1. **2018-06-22 发布 [【3.1.0正式版】](https://github.com/Wechat-Group/weixin-java-tools/releases)**！
+1. **2018-09-24 发布 [【3.2.0正式版】](https://github.com/Wechat-Group/weixin-java-tools/releases)**！
 1. 新手重要提示：本项目仅是一个SDK开发工具包，未提供Web实现，建议使用maven或gradle引用本项目即可使用本SDK提供的各种功能，详情可参考 **[【Demo项目】](demo.md)** 或本项目中的部分单元测试代码；另外微信开发新手请务必阅读[【开发文档 Wiki 首页】](https://github.com/Wechat-Group/weixin-java-tools/wiki)的常见问题部分，可以少走很多弯路，节省不少时间。
 1. [出现`Illegal key size`问题的解决办法](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%9A%84%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E5%8A%9E%E6%B3%95) （太多人遇到此问题而不知所措，因此特意置顶，希望能引起新手的注意，其他常见问题请查阅 [【开发文档Wiki】](https://github.com/wechat-group/weixin-java-tools/wiki)首页）
-1. **更多精彩内容，请扫描以下二维码关注新开通的微信公众号【WX开发助手】，或者加入企业微信，或者[访问此页面扫码](http://www.binarywang.com/article/cp_and_mp) ，也可以在微信中搜索 `weixin-java-tools`或 `WX开发助手` 关注公众号，公众号会及时通知SDK相关更新信息，并不定期分享微信开发相关技术知识。同时也欢迎大家对本项目进行赞赏和支持。**
+1. **更多精彩内容，请扫描以下二维码关注新开通的微信公众号【WX开发助手】，或者加入企业微信，或者[访问此页面扫码](http://www.binarywang.com/article/cp_and_mp) ，也可以在微信中搜索 `weixin-java-tools`或 `WX开发助手` 关注公众号，公众号会及时通知SDK相关更新信息，并不定期分享微信开发相关技术知识。**
 
-![微信开发助手公众号](qrcodes/mp_qrcode.jpg)  ![企业微信](qrcodes/cp_qrcode.png) ![微信支付](qrcodes/wepay_qrcode_s.jpg)
+![微信公众号及企业微信](qrcodes/cp_mp_qrcodes.png) 
 
 --------------------------------
 ### 其他说明
 1. 本项目Fork自chanjarster/weixin-java-tools，但由于原项目已停止维护，故单独维护和发布，且发布到maven上的groupId也会不同，详细信息见下文。
 1. [开源中国本项目的首页](https://www.oschina.net/p/weixin-java-tools-new)，欢迎大家积极留言评分 🙂
 1. SDK详细开发文档请查阅 [【开发文档Wiki】](https://github.com/wechat-group/weixin-java-tools/wiki)，部分文档可能未能及时更新，如有发现，可以及时上报或者自行修改。
-1. **阅读源码的同学请注意，本SDK为简化代码编译时加入了lombok支持，如果不了解lombok的话，请先学习下相关知识；**
+1. **阅读源码的同学请注意，本SDK为简化代码编译时加入了lombok支持，如果不了解lombok的话，请先学习下相关知识，比如可以阅读[此文章](https://mp.weixin.qq.com/s/cUc-bUcprycADfNepnSwZQ)；**
 1. 如有新功能需求，发现BUG，或者由于微信官方接口调整导致的代码问题，可以直接在[【Issues】](https://github.com/Wechat-Group/weixin-java-tools/issues)页提出issue，便于讨论追踪问题；
 1. 如果想贡献代码，请阅读[【代码贡献指南】](contribution.md)；
 1. **如果本SDK对您有所帮助，欢迎对我们的努力进行肯定，可以扫描[【支付宝付款码】](qrcodes/alipay_qrcode.jpg)或者[【微信支付二维码】](qrcodes/wepay_qrcode.jpg)进行打赏，或者直接前往[【托管于码云的项目首页】](http://gitee.com/binary/weixin-java-tools)，在评论区上方可以找到“捐助”按钮。非常感谢各位打赏和捐助的同学！**
@@ -47,6 +47,7 @@
 1. 公众号和小程序：民医台（可自行搜索）
 1. 洽洽企业号
 1. 高善人力资源
+1. 小程序：树懒揽书+
 1. 其他更多案例请[【访问这里】](https://github.com/Wechat-Group/weixin-java-tools/issues/729)，持续更新中。
 
 ---------------------------------
@@ -65,7 +66,7 @@
 <dependency>
   <groupId>com.github.binarywang</groupId>
   <artifactId>（不同模块参考下文）</artifactId>
-  <version>3.1.0</version>
+  <version>3.2.0</version>
 </dependency>
 ```
 * 各模块的`artifactId`：
@@ -88,36 +89,38 @@
 1. [chanjarster (Daniel Qian)](http://github.com/chanjarster)
 1. [binarywang (Binary Wang)](http://github.com/binarywang)
 1. [mgcnrx11](http://github.com/mgcnrx11)
+1. [007gzs](http://github.com/007gzs)
 1. [aimilin6688 (Jonk)](http://github.com/aimilin6688)
 1. [kakotor](http://github.com/kakotor)
 1. [kareanyi (MillerLin)](http://github.com/kareanyi)
 1. [rememberber (周波)](http://github.com/rememberber)
-1. [007gzs](http://github.com/007gzs)
 1. [tianmu](http://github.com/tianmu)
+1. [charmingoh (Charming)](http://github.com/charmingoh)
 1. [ukid](http://github.com/ukid)
 1. [forfuns (爱因斯唐)](http://github.com/forfuns)
 1. [zxkane (Meng Xin Zhu)](http://github.com/zxkane)
 1. [crskyp (我是木予)](http://github.com/crskyp)
+1. [yuanqixun (yuanqixun)](http://github.com/yuanqixun)
 1. [gaigeshen (gaigeshen)](http://github.com/gaigeshen)
 1. [dylanleung (dylanleung)](http://github.com/dylanleung)
+1. [huansinho](http://github.com/huansinho)
 1. [codepiano (codepiano)](http://github.com/codepiano)
 1. [stvliu (Steven Liu)](http://github.com/stvliu)
 1. [ajffdnt](http://github.com/ajffdnt)
 1. [fxdfxq (fxdfxq)](http://github.com/fxdfxq)
-1. [DDLeEHi](http://github.com/DDLeEHi)
 1. [unlimitedsola (Sola)](http://github.com/unlimitedsola)
-1. [jink2005 (Jink2005)](http://github.com/jink2005)
-1. [nickwongwong (Nick Wong)](http://github.com/nickwongwong)
+1. [DDLeEHi](http://github.com/DDLeEHi)
 1. [Hyseen](http://github.com/Hyseen)
+1. [nickwongwong (Nick Wong)](http://github.com/nickwongwong)
+1. [jink2005 (Jink2005)](http://github.com/jink2005)
 1. [withinthefog (withinthefog)](http://github.com/withinthefog)
-1. [huansinho](http://github.com/huansinho)
 1. [iwareserictsai (Eric.Tsai)](http://github.com/iwareserictsai)
 1. [lwxian](http://github.com/lwxian)
 1. [xusheng1987 (flying)](http://github.com/xusheng1987)
 1. [ZhaoxiongTan (xiong)](http://github.com/ZhaoxiongTan)
 1. [SimonDolph (Simon Dolph)](http://github.com/SimonDolph)
-1. [lly835](http://github.com/lly835)
-1. [lichenliang666 (李晨亮)](http://github.com/lichenliang666)
+1. [axeon](http://github.com/axeon)
+1. [TonyLuo (Tony)](http://github.com/TonyLuo)
 1. [dwandw (dwandw)](http://github.com/dwandw)
 1. [alanchenup (alanchen)](http://github.com/alanchenup)
 1. [zexpp5 (Lance7in)](http://github.com/zexpp5)
@@ -126,13 +129,21 @@
 1. [rtsbtx (强哥)](http://github.com/rtsbtx)
 1. [dracupid (Jingchen Zhao)](http://github.com/dracupid)
 1. [lijunkun1988](http://github.com/lijunkun1988)
-1. [dxwts (xuewu)](http://github.com/dxwts)
+1. [lly835](http://github.com/lly835)
 1. [mog0202 (蘑菇0202)](http://github.com/mog0202)
 1. [bobbyguo (bobby_guo)](http://github.com/bobbyguo)
 1. [huotaihe (白马度和)](http://github.com/huotaihe)
-1. [axeon](http://github.com/axeon)
+1. [dxwts (xuewu)](http://github.com/dxwts)
 1. [aliangsoft (阿亮软件)](http://github.com/aliangsoft)
 1. [Mkluas (Mklaus)](http://github.com/Mkluas)
 1. [CodeIdeal (康阳)](http://github.com/CodeIdeal)
 1. [leeis (IOMan)](http://github.com/leeis)
+1. [lichenliang666 (李晨亮)](http://github.com/lichenliang666)
 1. [627535195](http://github.com/627535195)
+1. [ztmark (Mark)](http://github.com/ztmark)
+1. [gtyang](http://github.com/gtyang)
+1. [scott-z (scott)](http://github.com/scott-z)
+1. [borisbao (Boris)](http://github.com/borisbao)
+1. [qsjia (QSJia)](http://github.com/qsjia)
+1. [webcreazy (webcreazy)](http://github.com/webcreazy)
+1. [cwivan (鱼丸Cwivan)](http://github.com/cwivan)
